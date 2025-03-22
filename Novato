@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-  // Declaração das variáveis para a primeira carta
+  // Declaracao das variaveis para a primeira carta
   int populacao1, pontos_turisticos1;
   float area1, pib1;
 
-  // Declaração das variáveis para a segunda carta
+  // Declaracao das variaveis para a segunda carta
   int populacao2, pontos_turisticos2;
   float area2, pib2;
 
@@ -31,14 +31,14 @@ int main() {
   printf("Numero de pontos turisticos: ");
   scanf("%d", &pontos_turisticos2);
 
-  // Exibição dos dados da primeira carta
+  // Exibicao dos dados da primeira carta
   printf("\nDados da primeira carta:\n");
   printf("Populacao: %d\n", populacao1);
   printf("Area: %.2f\n", area1);
   printf("PIB: %.2f\n", pib1);
   printf("Numero de pontos turisticos: %d\n", pontos_turisticos1);
 
-  // Exibição dos dados da segunda carta
+  // Exibicao dos dados da segunda carta
   printf("\nDados da segunda carta:\n");
   printf("Populacao: %d\n", populacao2);
   printf("Area: %.2f\n", area2);
